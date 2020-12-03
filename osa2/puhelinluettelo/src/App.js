@@ -42,6 +42,7 @@ const App = () => {
         number: newNumber,
         id: persons.length + 1,
     }
+    console.log(nameObject)
     setNewName('')
     setNewNumber('')
     const names = persons.map(person => person.name)
